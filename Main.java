@@ -8,6 +8,8 @@ interface CourseComponent {
 
 class Lesson implements CourseComponent {
     private String title;
+    private String instructorName;
+
 
     public Lesson(String title){
         this.title = title;
